@@ -6,21 +6,22 @@ export default function Navbar() {
     const [lastScrollY, setLastScrollY] = useState(0);
 
     useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-            if (currentScrollY > lastScrollY) {
-                setShowNavbar(false);
-            } else {
-                setShowNavbar(true);
-            }
-            setLastScrollY(currentScrollY);
-        };
+        // Check if the code is running in the browser
+            const handleScroll = () => {
+                const currentScrollY = window.scrollY;
+                if (currentScrollY > lastScrollY) {
+                    setShowNavbar(false);
+                } else {
+                    setShowNavbar(true);
+                }
+                setLastScrollY(currentScrollY);
+            };
 
-        window.addEventListener("scroll", handleScroll);
+            window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
+            return () => {
+                window.removeEventListener("scroll", handleScroll);
+            };
     }, [lastScrollY]);
 
     return (
@@ -30,11 +31,10 @@ export default function Navbar() {
                     <h1 className="text-4xl px-4 ">YOUDAS YESSAD</h1>
                     <div className="flex align-middle divide-x text-right px-2  ">
                         <a href="" className="p-2 rounded-l-md hover:bg-slate-900 hover:bg-opacity-25">HOME</a>
-                        <a href="#media" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">MEDIA</a>
-                        <a href="#involvements" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">INVOLVEMENTS</a>
-                        <a href="#projects" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">PROJECTS</a>
-                        <a href="#achievements" className="p-2 rounded-r-md hover:bg-slate-900 hover:bg-opacity-25">ACHIEVEMENTS</a>
-                        
+                        <a href="media" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">MEDIA</a>
+                        <a href="involvements" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">INVOLVEMENTS</a>
+                        <a href="projects" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">PROJECTS</a>
+                        <a href="achievements" className="p-2 rounded-r-md hover:bg-slate-900 hover:bg-opacity-25">ACHIEVEMENTS</a>
                     </div>
                 </div>
             </div>

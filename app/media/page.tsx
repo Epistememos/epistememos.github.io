@@ -1,11 +1,10 @@
 "use client";
 
 import React from 'react'
-import { media } from "../../lib/data";
-import { Item, Category } from '../../lib/interfaces';
-import About from '../About';
-import Navbar from '../Navbar';
-import ItemList from '../ItemList';
+import { media } from "../lib/data";
+import About from '../components/About';
+import Navbar from '../components/Navbar';
+import ItemList from '../components/ItemList';
 
 export default function Media() {
   return (

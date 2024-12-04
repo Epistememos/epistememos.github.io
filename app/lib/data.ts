@@ -1,19 +1,19 @@
-import { Category, Item } from "./interfaces";
+import { Category } from "./interfaces";
 
 export const media: Category = {
   category: 'Media',
-  link: '#media',
+  link: 'media',
   items: [{
     title: 'Various Poems & Thoughts 2024',
     img: '/assets/img-poems2024.jpg',
-    path: 'articles/free-will', 
+    path: '/articles/free-will', 
     time: '04/2024',
     description: "Free will is what should matter the most to us and we should not only believe in it but also implement the assumption of its existence in our lives."
   },
   {
     title: 'Free Will',
     img: '/assets/img-freewill.jpg',
-    path: '#articles/#free-will', 
+    path: '/articles/free-will', 
     time: '04/2024',
     description: "TLDR: Free will is what should matter the most to us and we should not only believe in it but also implement the assumption of its existence in our lives."
   },
@@ -38,7 +38,7 @@ export const media: Category = {
 
 export const involvements: Category = {
   category: 'Involvements',
-  link: '#involvements',
+  link: 'involvements',
 
   items: [
   {
@@ -105,7 +105,7 @@ export const involvements: Category = {
 
 export const projects: Category = {
   category: 'Projects/Technical Work',
-  link: '#projects',
+  link: 'projects',
   items: [
   {
     title: 'Reeva Tech Solutions - Dental Implant ',
@@ -125,8 +125,14 @@ export const projects: Category = {
 
 export const achievements: Category = {
   category: 'Achievements',
-  link: '#achievements',
+  link: 'achievements',
   items: [
+  {
+    title: 'Hospital Volunteering for 500H',
+    time: 'November 27th 2024',
+    img: '/assets/img-mtwashington.jpg',
+    description: "After 4 years of volunteering, I reached the 500H mark. My impact during the 2021-2022 period was crucial for patients as I was the only volunteer that organized activities every week. The accountability I felt from seeing how patients were isolated for long periods of time with little entertainment led me to keep my commitment. Volunteering weekly was fun, relaxing and also draining; going weekly, good time bad time, was rough, especially during holidays and finals season. But, I was on a mission and now that volunteers came back from the pandemic, I've accomplished my duty. I now train incoming volunteers from time to time."
+  },
   {
     title: 'Climbing Mount Washington, NH',
     time: 'October 18th 2024',

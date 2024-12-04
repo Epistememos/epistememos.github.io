@@ -1,26 +1,23 @@
+'use client'
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import Navbar from '../Navbar';
-import { ClassNames } from '@emotion/react';
+import { usePathname, useSearchParams } from 'next/navigation';
+import Navbar from '../../components/Navbar';
 import DOMPurify from 'dompurify';
 
-
-interface Params {
-    [key: string]: string | undefined;
-    id: string;
-  }
-
 const Article: React.FC = () => {
-  const { id } = useParams<Params>();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const id = pathname.split('/').pop();
   const [article, setArticle] = useState<string>('');
 
   useEffect(() => {
     const fetchArticle = async () => {
+      if (!id) return;
       try {
         const response = await fetch(`/articles/${id}.html`);
         const data = await response.text();
 
-        const sanitizedHTML = DOMPurify.sanitize(data); //preventing XSS attacks + modifying styling
+        const sanitizedHTML = DOMPurify.sanitize(data);
         const styledHTML = sanitizedHTML
           .replace(/<h1>/g, '<h1 class="text-2xl uppercase font-bold">')
           .replace(/<h2>/g, '<h2 class="text-xl font-semibold">')
@@ -43,7 +40,7 @@ const Article: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <div  dangerouslySetInnerHTML={createMarkup()} className=" h-full p-8 m-4 rounded-lg bg-gray-200 shadow-md hover:shadow-xl"/>
+      <div dangerouslySetInnerHTML={createMarkup()} className="h-full p-8 m-4 rounded-lg bg-gray-200 shadow-md hover:shadow-xl" />
     </div>
   );
 }

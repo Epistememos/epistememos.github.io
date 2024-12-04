@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": "src",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,9 +23,23 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/*": [
+        "./*"
+      ]
+    },
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/Navbar", "app/lib/data.ts", "app/.archive/Showcase copy.tsx", "app/.archive/ShowcaseCard copy.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/components/Navbar",
+    "app/lib/data.ts",
+    "app/components/Showcase",
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

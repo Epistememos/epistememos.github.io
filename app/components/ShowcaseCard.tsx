@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Item } from "../lib/interfaces";
-import Link from "next/link";
+
 
 const ShowcaseCard: React.FC<{ data: Item }> = ({ data }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -9,7 +9,7 @@ const ShowcaseCard: React.FC<{ data: Item }> = ({ data }) => {
 
   return (
     <div 
-      onClick={() => window.location.assign(data.path || "#")}
+      onClick={() => { window.location.assign(data.path || "#")}}
       className="flex flex-col w-full h-full justify-center items-center p-2 hover:filter hover:grayscale transition duration-300 ease-in-out"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

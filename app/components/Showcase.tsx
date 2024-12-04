@@ -7,16 +7,17 @@ const Showcase: React.FC< {category: Category} > = ({ category }) => {
   const [itemsToShow, setItemsToShow] = useState(0); 
 
   useEffect(() => {
-    const updateItemsToShow = () => {
-      setItemsToShow(Math.floor((window.innerWidth - 100) / 270)); 
-    };
+   
+      const updateItemsToShow = () => {
+        setItemsToShow(Math.floor((window.innerWidth - 100) / 270)); 
+      };
 
-    updateItemsToShow(); 
-    window.addEventListener('resize', updateItemsToShow); 
+      updateItemsToShow(); 
+      window.addEventListener('resize', updateItemsToShow); 
 
-    return () => {
-      window.removeEventListener('resize', updateItemsToShow); 
-    };
+      return () => {
+        window.removeEventListener('resize', updateItemsToShow); 
+      };
   }, []); 
 
   return (
@@ -28,9 +29,13 @@ const Showcase: React.FC< {category: Category} > = ({ category }) => {
         </a>
       </div>
       <ul className="flex flex-row h-full">
-        {category.items.slice(0, itemsToShow).map((item, index) => (
-          <ShowcaseCard key={index} data={item} />
-        ))}
+        {itemsToShow > 0 && category.items.length > 0 ? (
+          category.items.slice(0, itemsToShow).map((item, index) => (
+            <ShowcaseCard key={index} data={item} />
+          ))
+        ) : (
+          <li className="text-center text-gray-500">No items to display</li>
+        )}
       </ul>
     </div>
     </div>
