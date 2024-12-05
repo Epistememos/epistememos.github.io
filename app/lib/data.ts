@@ -117,7 +117,7 @@ export const projects: Category = {
   {
     title: 'Personal Website',
     time: 'Ongoing',
-    img: '/assets/img-personalwebsite.jpg',
+    img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on github pages.",
     path: 'https://github.com/Epistememos/TaskMaster',
   },
@@ -130,13 +130,13 @@ export const achievements: Category = {
   {
     title: 'Hospital Volunteering for 500H',
     time: 'November 27th 2024',
-    img: '/assets/img-mtwashington.jpg',
+    img: '/assets/img-washington.jpg',
     description: "After 4 years of volunteering, I reached the 500H mark. My impact during the 2021-2022 period was crucial for patients as I was the only volunteer that organized activities every week. The accountability I felt from seeing how patients were isolated for long periods of time with little entertainment led me to keep my commitment. Volunteering weekly was fun, relaxing and also draining; going weekly, good time bad time, was rough, especially during holidays and finals season. But, I was on a mission and now that volunteers came back from the pandemic, I've accomplished my duty. I now train incoming volunteers from time to time."
   },
   {
     title: 'Climbing Mount Washington, NH',
     time: 'October 18th 2024',
-    img: '/assets/img-mtwashington.jpg',
+    img: '/assets/img-washington.jpg',
     description: "First time climbing, so I settled on the tallest mountain in North-East America, Mount Washington in New Hampshire. My 2 friends and I started our hike at 6AM and took the Tuckerman ravine route to reach the top. Then we went for Mount Eisenhower to finally go back down the Tuckerman Route. If you're in decent shape and ready for a challenge, I heavily suggest you climb this mountain, the views were magistral and the air, so pure. This experience definitely convinced me to hike more often!"
   },
   {
