@@ -27,9 +27,9 @@ export default function Navbar() {
     return (
         <div>
             <div className="flex-col bg-[url('/assets/img-mountain.png')] bg-cover bg-center h-[440px] w-full font-mono ">
-                <div className={`fixed top-0 left-0 w-full z-50 flex py-2 h-max justify-between text-white text-lg bg-slate-900 bg-opacity-30 transition-opacity duration-300 ${showNavbar ? "opacity-100" : "opacity-0 -translate-y-full"}`}>
-                    <h1 className="text-4xl px-4 ">YOUDAS YESSAD</h1>
-                    <div className="flex align-middle divide-x text-right px-2  ">
+                <div className={`fixed top-0 left-0 w-full z-50 flex py-2 h-max justify-center sm:justify-between text-white text-lg bg-slate-900 bg-opacity-30 transition-opacity duration-300 ${showNavbar ? "opacity-100" : "opacity-0 -translate-y-full"}`}>
+                    <h1 className="text-4xl px-4 hidden sm:block">YOUDAS YESSAD</h1>
+                    <div className="flex align-middle divide-x text-right px-2 text-sm sm:text-lg  ">
                         <a href="/" className="p-2 rounded-l-md hover:bg-slate-900 hover:bg-opacity-25">HOME</a>
                         <a href="/media" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">MEDIA</a>
                         <a href="/involvements" className="p-2 hover:bg-slate-900 hover:bg-opacity-25">INVOLVEMENTS</a>

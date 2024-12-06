@@ -7,10 +7,10 @@ const About: React.FC<{mostRecent: Item, message:string, title:string}> = ({most
   
   return (
     <div>
-      <div id="about" className="text-4xl text-gray-900 px-16 py-4 font-mono ">
+      <div id="about" className="text-4xl text-gray-900 px-4 sm:px-16 py-4 font-mono ">
         <h1 className="font-black pb-4 uppercase">{message}</h1>
         <div className="w-full h-full py-2 rounded-lg bg-gray-200 shadow-md hover:shadow-xl">
-          <h2 className="py-2 px-6 text-4xl">{title}</h2>
+          <h2 className="py-2 px-6 text-xl sm:text-4xl">{title}</h2>
           <div className="flex w-full divide-y-2 divide-gray-400 flex-col md:flex-row md:divide-x-2 md:divide-y-0">
             <div className="px-6 py-4 w-full md:w-1/3">
               <Image
@@ -26,7 +26,7 @@ const About: React.FC<{mostRecent: Item, message:string, title:string}> = ({most
               <h3 className="text-xl font-bold">
                 Date: {mostRecent.time}
               </h3>
-              <p className="text-xl text-justify">
+              <p className="text-sm sm:text-xl text-justify">
                 {mostRecent.description}
               </p>
               {mostRecent.path && (

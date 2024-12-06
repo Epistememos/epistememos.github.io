@@ -35,61 +35,71 @@ export const involvements: Category = {
     title: 'VP Finance - MPMA',
     time: '10/2024-Present',
     img: '/assets/img-mpma.jpg',
-    path: 'https://www.linkedin.com/company/mpma-mcgill/'
+    path: 'https://www.linkedin.com/company/mpma-mcgill/',
+    description: "Handling all financial transactions for the McGill Product Management Association."
   },
   {
     title: 'VP Finance - MSFC', 
     time: '10/2024-Present',
     img: '/assets/img-msfc.jpg',
-    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
+    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en',
+    description: "Handling all financial transactions for the McGill Students' FLying Club."
   },
   {
     title: 'Coach - McGill Boxing Club', 
     time: '09/2024-Present',
     img: '/assets/img-boxing.jpg',
-    path: 'https://mcgillstudentboxingclub.ca/'
+    path: 'https://mcgillstudentboxingclub.ca/',
+    description: "From member to coach in a few months, doing this on a voluntary basis. Boxing saves lives."
   },
   {
     title: 'Volunteer - Notre-Dame Hospital', 
     time: '11/2020-Present',
     img: '/assets/img-volunteer.jpg',
-    path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps'
+    path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps',
+    description: "Enhanced volunteer commitment by creating meaningful shared experiences, recruiting and training new volunteers, providing reception services during the COVID-19 pandemic, and leading weekly karaoke activities in the psychiatry department."
   },
   {
     title: 'VP Skydiving - MSFC', 
     time: '10/2023-06/2024',
     img: '/assets/img-msfc.jpg',
-    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
+    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en',
+    description: 'Organized a skydiving event for 40 participants, managing transportation logistics, coordinating weather-related adjustments with the venue, overseeing $14,000 in financial transactions, and making key decisions to ensure participant satisfaction.'
   },
   {
     title: 'Member - Boxing Club', 
     time: '02/2024-05/2024',
     img: '/assets/img-boxing.jpg',
-    path: 'https://mcgillstudentboxingclub.ca/'
+    path: 'https://mcgillstudentboxingclub.ca/',
+    description: 'Boxed a little before the pandemic, never went back. Suddenly, I came back to it after the pandemic and I was passionate about it.'
   },
   {
     title: 'Junior Consultant - ConnectUs',
     time: '10/2023-05/2024',
     img: '/assets/img-connectus.jpg',
-    path: 'https://www.instagram.com/mcgill.cu/?hl=en'
+    path: 'https://www.instagram.com/mcgill.cu/?hl=en',
+    description: "Conducted a comprehensive case study for GenieLab on material sourcing, analyzing costs and feasibility of sourcing educational kits from Canadian, U.S., and international suppliers."
   },
   {
     title: 'Many Roles - Royal Air Cadets', 
     time: '2016-2023',
     img: '/assets/img-cadet.jpg',
-    path: ''
+    path: '',
+    description: 'Assumed the role of Squadron Cadet Commander, guiding 80 cadets aged 12-17 in their development and discipline, designing impactful leadership training for 15 cadet officers to enhance their command abilities, and delivering comprehensive instruction in aviation, meteorology, survival, and military exercises.'
   },
   {
     title: 'President - CIUSSS Volunteers', 
     time: '08/2022-06/2023',
     img: '/assets/img-boxing.jpg',
-    path: 'https://www.instagram.com/ciusss.mari/?hl=en'
+    path: 'https://www.instagram.com/ciusss.mari/?hl=en',
+    description: "Founded and led CIUSSS Volunteers, recruiting 30 student volunteers, collaborating with Montreal hospitals to meet their needs, and promoting opportunities to Marianopolis College students."
   },
   {
     title: 'President - Philosophy Club', 
     time: '08/2021-06/2023',
     img: '/assets/img-philo.jpg',
-    path: ''
+    path: '',
+    description: "Founded a philosophy club with over 50 members, organizing weekly discussions, curating philosophical resources, and increasing engagement through a social media campaign."
   }
 ]};
 

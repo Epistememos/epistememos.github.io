@@ -10,11 +10,11 @@ const ShowcaseCard: React.FC<{ data: Item }> = ({ data }) => {
   return (
     <div 
       onClick={() => { window.location.assign(data.path || "#")}}
-      className="flex flex-col w-full h-full justify-center items-center p-2 hover:filter hover:grayscale transition duration-300 ease-in-out"
+      className="flex flex-col w-full h-full justify-center items-center p-2 hover:filter sm:hover:grayscale transition duration-300 ease-in-out"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative w-full h-[30rem]">
+      <div className="relative w-full h-[20rem] sm:h-[30rem]">
         <Image
           src={data.img}
           alt={data.title}
@@ -24,9 +24,9 @@ const ShowcaseCard: React.FC<{ data: Item }> = ({ data }) => {
           sizes="10vm"
         />
         <h1 
-          className={`${isHovered ? "text-sm" : titleClass} text-center p-2 z-10 absolute transition-all duration-300 ease-in-out ${isHovered && data.description ? "top-1/2 bg-opacity-80" : "top-1/4"} left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-opacity-60 bg-black text-white w-5/6 rounded-md`}
+          className={`${isHovered && window.innerWidth >= 640 ? "text-sm" : titleClass} text-center p-2 z-10 absolute transition-all duration-300 ease-in-out ${isHovered && data.description && window.innerWidth >= 640 ? "top-1/2 bg-opacity-80" : "top-1/4"} left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-opacity-60 bg-black text-white w-5/6 rounded-md`}
         >
-          {isHovered && data.description ? data.description : data.title}
+          {isHovered && data.description && window.innerWidth >= 640 ? data.description : data.title}
         </h1>
       </div>
     </div>
