@@ -6,9 +6,9 @@ export const media: Category = {
   items: [{
     title: 'Various Poems & Thoughts 2024',
     img: '/assets/img-poems2024.jpg',
-    path: '/articles/free-will', 
-    time: '04/2024',
-    description: "Free will is what should matter the most to us and we should not only believe in it but also implement the assumption of its existence in our lives."
+    path: '/articles/poems-and-thoughts-2024', 
+    time: 'Last updated: 06/12/2024',
+    description: "Trying to keep my literary side alive through poetry and philosophical blurbs."
   },
   {
     title: 'Free Will',
@@ -23,16 +23,6 @@ export const media: Category = {
     path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps', 
     time: '03/2024',
     description: "Youdas Yessad a débuté le bénévolat tôt à l’adolescence. Il y a un peu plus de 3 ans, il a offert ses services au sein du CIUSSS du Centre-Sud-de-l'Île-de-Montréal dans l’objectif de s’impliquer auprès des personnes en fin de vie. Toutefois, le Service du bénévolat avait un plus grand besoin ..."
-  },
-  {
-    title: 'Misunderstood Nietzsche (Soon)',
-    img: '/assets/img-nietzsche.jpg',
-    time: '',
-  },
-  {
-    title: 'Option Trading (Soon)', 
-    img: '/assets/img-options.jpg',
-    time: ''
   }
 ]};
 
@@ -110,15 +100,15 @@ export const projects: Category = {
   {
     title: 'Reeva Tech Solutions - Dental Implant ',
     time: 'May-September 2024',
-    img: '/assets/img-neuralcar.jpg',
-    description: "Designed and built a dental implant tracking device based on feedback from dentists. The backend uses SQLite for local data storage, while the frontend is built with React.js and packaged as a desktop application using Bun.js and Electron.js. Managed all stages of the project, from design to deployment and minor testing",
+    img: '/assets/img-implantsystem.jpg',
+    description: "Designed and built a dental implant tracking device based on feedback from dentists. The backend uses SQLite for local data storage, while the frontend is built with React.js and packaged as a desktop application using Bun.js and Electron.js. Managed all stages of the project, from design to deployment and minor client testing.",
     path: '',
   },
   {
     title: 'Personal Website',
-    time: 'Ongoing',
+    time: 'Last Updated: 05/12/2024',
     img: '/assets/img-personalweb.jpg',
-    description: "All built using Next.js... you got the results in front of you haha. Deployed on github pages.",
+    description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
   },
 ]};
