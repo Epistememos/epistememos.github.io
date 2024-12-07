@@ -12,8 +12,8 @@ const About: React.FC<{mostRecent: Item, message:string, title:string}> = ({most
         <h1 className="font-black pb-4 uppercase">{message}</h1>
         <div className="w-full h-full py-2 rounded-lg bg-gray-200 dark:bg-sand-700 shadow-md hover:shadow-xl">
           <h2 className="py-2 px-6 text-xl sm:text-4xl">{title}</h2>
-          <div className="flex w-full divide-y-2 divide-gray-400 dark:divide-white flex-col md:flex-row md:divide-x-2 md:divide-y-0">
-            <div className="px-6 py-4 w-full md:w-1/3">
+          <div className="flex w-full divide-y-2 divide-gray-400 dark:divide-white flex-col md:flex-row md:divide-x-2 md:divide-y-0 justify-center">
+            <div className="px-6 py-4 w-full md:w-1/3 ">
               <Image
                 src={mostRecent.img}
                 alt={mostRecent.title}

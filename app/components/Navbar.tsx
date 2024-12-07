@@ -31,18 +31,18 @@ export default function Navbar() {
     return (
         <div>
             <div className="flex-col bg-[url('/assets/img-mountain.png')]  bg-cover bg-center h-[440px] w-full font-mono dark:bg-[url('/assets/img-desert.png')]">
-                <div className={`fixed top-0 left-0 w-full z-50 flex py-2 h-max justify-center sm:justify-between text-white text-lg bg-gray-900 bg-opacity-30 dark:bg-opacity-80 dark:bg-sand-950 transition-opacity duration-300 ${showNavbar ? "opacity-100" : "opacity-0 -translate-y-full"}`}>
+                <div className={`fixed top-0  left-0 w-full z-50 flex py-2 h-16 justify-center sm:justify-between text-white text-lg bg-gray-900 bg-opacity-30 dark:bg-opacity-80 dark:bg-sand-950 transition-opacity duration-300 ${showNavbar ? "opacity-100" : "opacity-0 -translate-y-full"}`}>
                     <h1 className="text-4xl px-4 hidden sm:block">YOUDAS YESSAD</h1>
-                    <div className="flex align-middle divide-x text-right px-2 text-xs sm:text-lg  ">
-                        <a href="/" className="sm:p-2 align-middle rounded-l-md hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">HOME</a>
-                        <a href="/media" className="sm:p-2 align-middle hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">MEDIA</a>
-                        <a href="/involvements" className="sm:p-2 align-middle hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">INVOLVEMENTS</a>
-                        <a href="/projects" className="sm:p-2 align-middle hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">PROJECTS</a>
-                        <a href="/achievements" className="sm:p-2  align-middle rounded-r-md hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">ACHIEVEMENTS</a>
+                    <div className="flex flex-row items-center justify-center h-full divide-x text-right sm:px-2 text-xs sm:text-lg">
+                        <a href="/" className="flex items-center h-full sm:p-2 rounded-l-md hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">HOME</a>
+                        <a href="/media" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">MEDIA</a>
+                        <a href="/involvements" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">INVOLVEMENTS</a>
+                        <a href="/projects" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">PROJECTS</a>
+                        <a href="/achievements" className="flex items-center h-full sm:p-2  hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">ACHIEVEMENTS</a>
                         <div>
                             <button 
                                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-                                className="flex items-center p-2 hover:bg-opacity-25"
+                                className="flex items-center p-2 hover:bg-opacity-25 rounded-r-md"
                             >
                                 {theme === 'light' ? (
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
