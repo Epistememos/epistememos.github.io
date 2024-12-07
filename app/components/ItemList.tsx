@@ -4,12 +4,12 @@ import Image from 'next/image'
 
  const ItemList: React.FC<{category: Category}> = ({category}) => {
   return (
-    <div className='bg-gray-50 border-dashed border-4 shadow-lg border-gray-200 m-4 rounded-lg'>
+    <div className='bg-gray-50 dark:bg-sand-400 border-dashed border-4 shadow-lg border-gray-200 m-4 rounded-lg'>
         <ul className="flex flex-col h-full">
         {category.items.slice(1).map((item, index) => (
-          <div key={index} className="text-4xl text-gray-900 px-16 py-4 font-mono ">
-          <div className="w-full h-full py-2 rounded-lg bg-gray-200 shadow-md hover:shadow-xl">
-            <div className={`flex w-full divide-y-2 divide-gray-400 md:divide-y-0 md:divide-x-2  ${index % 2 === 1 ? 'flex-col md:flex-row' : 'flex-col md:flex-row-reverse md:divide-x-reverse'} `}>
+          <div key={index} className="text-lg sm:text-4xl  px-2 sm:px-16 py-4 font-mono ">
+          <div className="w-full h-full py-2 rounded-lg bg-gray-200 dark:bg-sand-700 shadow-md hover:shadow-xl">
+            <div className={`flex w-full divide-y-2 divide-gray-400 dark:divide-white md:divide-y-0 md:divide-x-2  ${index % 2 === 1 ? 'flex-col md:flex-row' : 'flex-col md:flex-row-reverse md:divide-x-reverse'} `}>
               <div className="px-6 py-4 w-full md:w-1/3 ">
                 <Image
                   src={item.img}
@@ -19,12 +19,12 @@ import Image from 'next/image'
                   className="rounded-md max-h-76 w-auto justify-self-center"
                 />
               </div>
-              <div className="py-2 px-6 w-full">
+              <div className="py-2 px-6 w-full text-center sm:text-justify">
                 <h2>{item.title}</h2>
                 <h3 className="text-xl font-bold">
                   Date: {item.time}
                 </h3>
-                <p className="text-xl text-justify">
+                <p className="text-sm sm:text-xl text-center sm:text-justify">
                   {item.description}
                 </p>
                 {item.path && (

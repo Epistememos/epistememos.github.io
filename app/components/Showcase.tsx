@@ -22,9 +22,9 @@ const Showcase: React.FC< {category: Category} > = ({ category }) => {
 
   return (
     <div className='flex p-4 '>
-    <div className='flex flex-col p-2 w-full h-full bg-gray-200 rounded-lg divide-y-2 divide-gray-400'>
+    <div className='flex flex-col p-2 w-full h-full bg-gray-200 dark:bg-sand-700 rounded-lg divide-y-2 divide-gray-400 dark:divide-white'>
       <div className='relative flex justify-center items-center h-16'>
-        <a href={category.link} className='w-fit text-2xl justify-self-center absolute font-black uppercase inset-x-0 top-1/2 transform -translate-y-1/2 sm:text-4xl text-gray-900 drop-shadow-lg hover:drop-shadow-none hover:text-gray-950 text-center'>
+        <a href={category.link} className='w-fit text-2xl justify-self-center flex font-black uppercase sm:text-4xl  drop-shadow-lg hover:drop-shadow-none  text-center'>
           {category.category}
         </a>
       </div>

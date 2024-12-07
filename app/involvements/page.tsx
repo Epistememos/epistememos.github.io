@@ -11,7 +11,7 @@ export default function Involvements() {
   return (
     <div>
       <Navbar />
-      <About mostRecent={involvements.items[0]} message="If you like it just do it." title="Last Thing I've Roped Myself In" />
+      <About mostRecent={involvements.items[0]} message="If you like it, just do it." title="Last Thing I've Roped Myself In" />
       <ItemList category={involvements} />
     </div>
   )

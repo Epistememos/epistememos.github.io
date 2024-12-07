@@ -1,17 +1,18 @@
 import React from "react";
 import { Item } from "../lib/interfaces";
-import { achievements } from "../lib/data";
 import Image from "next/image";
 
 const About: React.FC<{mostRecent: Item, message:string, title:string}> = ({mostRecent, message, title}) => {
   
   return (
+    
     <div>
-      <div id="about" className="text-4xl text-gray-900 px-4 sm:px-16 py-4 font-mono ">
+      
+      <div id="about" className="text-4xl  px-4 sm:px-16 py-4 font-mono ">
         <h1 className="font-black pb-4 uppercase">{message}</h1>
-        <div className="w-full h-full py-2 rounded-lg bg-gray-200 shadow-md hover:shadow-xl">
+        <div className="w-full h-full py-2 rounded-lg bg-gray-200 dark:bg-sand-700 shadow-md hover:shadow-xl">
           <h2 className="py-2 px-6 text-xl sm:text-4xl">{title}</h2>
-          <div className="flex w-full divide-y-2 divide-gray-400 flex-col md:flex-row md:divide-x-2 md:divide-y-0">
+          <div className="flex w-full divide-y-2 divide-gray-400 dark:divide-white flex-col md:flex-row md:divide-x-2 md:divide-y-0">
             <div className="px-6 py-4 w-full md:w-1/3">
               <Image
                 src={mostRecent.img}
@@ -51,7 +52,9 @@ const About: React.FC<{mostRecent: Item, message:string, title:string}> = ({most
           </div>
         </div>
       </div>
+      
     </div>
+
   );
 };
 

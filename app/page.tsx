@@ -4,7 +4,7 @@ import {media, involvements, projects, achievements} from './lib/data';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Showcase from './components/Showcase';
-import '../styles/style.css';
+
 
 
 const Main: React.FC = () => {
@@ -13,7 +13,7 @@ const Main: React.FC = () => {
 
   
     return (
-      <main className="font-mono">
+      <main className="font-mono dark:bg-sand-900">
         <Navbar />
         <About mostRecent={achievements.items[0]} message="FREE WILL IS CRAZYYYY" title="Most Recent Achievement"/>
         {categories.map((category, index) => (

@@ -10,7 +10,7 @@ export default function Media() {
   return (
     <div>
       <Navbar />
-      <About mostRecent={media.items[0]} message="Writing what you think is based" title="Last Article I Wrote" />
+      <About mostRecent={media.items[0]} message="Writing what you think is based." title="Last Article I Wrote" />
       <ItemList category={media} />
     </div>
   )

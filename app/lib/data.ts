@@ -98,7 +98,7 @@ export const involvements: Category = {
     title: 'President - Philosophy Club', 
     time: '08/2021-06/2023',
     img: '/assets/img-philo.jpg',
-    path: '',
+    path: 'https://www.instagram.com/philosophy.marianopolis/',
     description: "Founded a philosophy club with over 50 members, organizing weekly discussions, curating philosophical resources, and increasing engagement through a social media campaign."
   }
 ]};
@@ -112,7 +112,7 @@ export const projects: Category = {
     time: 'May-September 2024',
     img: '/assets/img-implantsystem.jpg',
     description: "Designed and built a dental implant tracking device based on feedback from dentists. The backend uses SQLite for local data storage, while the frontend is built with React.js and packaged as a desktop application using Bun.js and Electron.js. Managed all stages of the project, from design to deployment and minor client testing.",
-    path: '',
+    path: 'https://www.reevatechsolutions.com/',
   },
   {
     title: 'Personal Website',
@@ -130,7 +130,8 @@ export const achievements: Category = {
   {
     title: 'Hospital Volunteering for 500H',
     time: 'November 27th 2024',
-    img: '/assets/img-washington.jpg',
+    img: '/assets/img-volunteer500.jpg',
+    path: '/assets/pdf/volunteer500.pdf',
     description: "After 4 years of volunteering, I reached the 500H mark. My impact during the 2021-2022 period was crucial for patients as I was the only volunteer that organized activities every week. The accountability I felt from seeing how patients were isolated for long periods of time with little entertainment led me to keep my commitment. Volunteering weekly was fun, relaxing and also draining; going weekly, good time bad time, was rough, especially during holidays and finals season. But, I was on a mission and now that volunteers came back from the pandemic, I've accomplished my duty. I now train incoming volunteers from time to time."
   },
   {

@@ -1,4 +1,5 @@
 import '../styles/style.css';
+import Theme from './theme';
 
 export const metadata = {
   title: 'Youdas Yessad',
@@ -11,8 +12,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      
+      <body className='dark:bg-sand-900'>
+      <Theme>
+      {children}
+      </Theme>
+      </body>
+      
     </html>
   )
 }
