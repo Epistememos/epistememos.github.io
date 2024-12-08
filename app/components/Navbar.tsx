@@ -7,7 +7,6 @@ export default function Navbar() {
     const [lastScrollY, setLastScrollY] = useState(0);
     const { theme, setTheme } = useTheme();
 
-    console.log("Current theme:", theme);
 
     //hook to show navbar when scrolling up
     useEffect(() => {
@@ -27,6 +26,12 @@ export default function Navbar() {
                 window.removeEventListener("scroll", handleScroll);
             };
     }, [lastScrollY]);
+
+    useEffect(() => {
+        if (theme != 'light' && theme != 'dark') {
+            setTheme('light');
+        }
+    }, [theme, setTheme]);
 
     return (
         <div>
