@@ -62,7 +62,7 @@ export const involvements: Category = {
   {
     title: 'VP Skydiving - MSFC', 
     time: '10/2023-06/2024',
-    img: '/assets/img-msfc.jpg',
+    img: '/assets/img-skydiving.jpg',
     path: 'https://www.instagram.com/mcgillflyingclub/?hl=en',
     description: 'Organized a skydiving event for 40 participants, managing transportation logistics, coordinating weather-related adjustments with the venue, overseeing $14,000 in financial transactions, and making key decisions to ensure participant satisfaction.'
   },
@@ -116,7 +116,7 @@ export const projects: Category = {
   },
   {
     title: 'Personal Website',
-    time: 'Last Updated: 05/12/2024',
+    time: 'Last Updated: 21/12/2024',
     img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',

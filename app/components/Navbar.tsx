@@ -39,15 +39,15 @@ export default function Navbar() {
                 <div className={`fixed top-0  left-0 w-full z-50 flex py-2 h-16 justify-center sm:justify-between text-white text-lg bg-gray-900 bg-opacity-30 dark:bg-opacity-80 dark:bg-sand-950 transition-opacity duration-300 ${showNavbar ? "opacity-100" : "opacity-0 -translate-y-full"}`}>
                     <h1 className="text-4xl px-4 hidden sm:block">YOUDAS YESSAD</h1>
                     <div className="flex flex-row items-center justify-center h-full divide-x text-right sm:px-2 text-xs sm:text-lg">
-                        <a href="/" className="flex items-center h-full sm:p-2 rounded-l-md hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">HOME</a>
-                        <a href="/media" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">MEDIA</a>
-                        <a href="/involvements" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">INVOLVEMENTS</a>
-                        <a href="/projects" className="flex items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">PROJECTS</a>
-                        <a href="/achievements" className="flex items-center h-full sm:p-2  hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">ACHIEVEMENTS</a>
+                        <a href="/" className="flex p-1 items-center h-full sm:p-2 rounded-l-md hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">HOME</a>
+                        <a href="/media" className="flex p-1 items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">MEDIA</a>
+                        <a href="/involvements" className="flex p-1 items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">INVOLVEMENTS</a>
+                        <a href="/projects" className="flex p-1 items-center h-full sm:p-2 hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">PROJECTS</a>
+                        <a href="/achievements" className="flex p-1 items-center h-full sm:p-2  hover:bg-slate-900 dark:hover:bg-sand-950 hover:bg-opacity-25 dark:hover:bg-opacity-25">ACHIEVEMENTS</a>
                         <div>
                             <button 
                                 onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-                                className="flex items-center p-2 hover:bg-opacity-25 rounded-r-md"
+                                className="flex items-center p-2 hover:bg-opacity-25 hover:bg-slate-900 dark:hover:bg-sand-950 dark:hover:bg-opacity-25 rounded-r-md"
                             >
                                 {theme === 'light' ? (
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
