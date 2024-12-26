@@ -19,7 +19,7 @@ export const media: Category = {
   },
   {
     title: 'Bénévolat : Offrir et recevoir en même temps',
-    img: '/assets/img-freewill.jpg',
+    img: '/assets/img-volunteerarticle.jpg',
     path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps', 
     time: '03/2024',
     description: "Youdas Yessad a débuté le bénévolat tôt à l’adolescence. Il y a un peu plus de 3 ans, il a offert ses services au sein du CIUSSS du Centre-Sud-de-l'Île-de-Montréal dans l’objectif de s’impliquer auprès des personnes en fin de vie. Toutefois, le Service du bénévolat avait un plus grand besoin ..."
@@ -55,7 +55,7 @@ export const involvements: Category = {
   {
     title: 'Volunteer - Notre-Dame Hospital', 
     time: '11/2020-Present',
-    img: '/assets/img-volunteer.jpg',
+    img: '/assets/img-volunteering.jpg',
     path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps',
     description: "Enhanced volunteer commitment by creating meaningful shared experiences, recruiting and training new volunteers, providing reception services during the COVID-19 pandemic, and leading weekly karaoke activities in the psychiatry department."
   },
@@ -90,7 +90,7 @@ export const involvements: Category = {
   {
     title: 'President - CIUSSS Volunteers', 
     time: '08/2022-06/2023',
-    img: '/assets/img-boxing.jpg',
+    img: '/assets/img-volunteerarticle.jpg',
     path: 'https://www.instagram.com/ciusss.mari/?hl=en',
     description: "Founded and led CIUSSS Volunteers, recruiting 30 student volunteers, collaborating with Montreal hospitals to meet their needs, and promoting opportunities to Marianopolis College students."
   },
