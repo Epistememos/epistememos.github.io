@@ -22,6 +22,7 @@ const Article: React.FC = () => {
           .replace(/<h1>/g, '<h1 class="text-2xl uppercase font-bold">')
           .replace(/<h2>/g, '<h2 class="text-xl font-semibold">')
           .replace(/<img([^>]*)>/g, '<img$1 class="rounded-md">')
+          .replace(/<p>/g, '<p class="text-sm text-justify sm:text-lg font-medium">')
           .replace(/<h3>/g, '<h3 class="text-lg font-medium">');
 
         setArticle(styledHTML);
