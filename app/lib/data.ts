@@ -42,7 +42,7 @@ export const involvements: Category = {
     title: 'VP Finance - MSFC', 
     time: '10/2024-Present',
     img: '/assets/img-msfc.jpg',
-    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en',
+    path: 'https://mcgillflyingclub.com/index.html',
     description: "Handling all financial transactions for the McGill Students' FLying Club."
   },
   {
@@ -63,7 +63,7 @@ export const involvements: Category = {
     title: 'VP Skydiving - MSFC', 
     time: '10/2023-06/2024',
     img: '/assets/img-skydiving.jpg',
-    path: 'https://www.instagram.com/mcgillflyingclub/?hl=en',
+    path: 'https://mcgillflyingclub.com/index.html',
     description: 'Organized a skydiving event for 40 participants, managing transportation logistics, coordinating weather-related adjustments with the venue, overseeing $14,000 in financial transactions, and making key decisions to ensure participant satisfaction.'
   },
   {
