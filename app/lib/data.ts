@@ -7,7 +7,7 @@ export const media: Category = {
     title: 'Various Poems & Thoughts 2024',
     img: '/assets/img-poems2024.jpg',
     path: '/articles/poems-and-thoughts-2024', 
-    time: 'Last updated: 06/12/2024',
+    time: 'Last updated: 25/12/2024',
     description: "Trying to keep my literary side alive through poetry and philosophical blurbs."
   },
   {
@@ -116,7 +116,7 @@ export const projects: Category = {
   },
   {
     title: 'Personal Website',
-    time: 'Last Updated: 21/12/2024',
+    time: 'Last Updated: 25/12/2024',
     img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
