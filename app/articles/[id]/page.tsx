@@ -19,11 +19,12 @@ const Article: React.FC = () => {
 
         const sanitizedHTML = DOMPurify.sanitize(data);
         const styledHTML = sanitizedHTML
-          .replace(/<h1>/g, '<h1 class="text-2xl uppercase font-bold">')
-          .replace(/<h2>/g, '<h2 class="text-xl font-semibold">')
+          .replace(/<h1>/g, '<h1 class="text-2xl py-2 uppercase font-bold">')
+          .replace(/<h2>/g, '<h2 class="text-xl py-1 font-semibold">')
           .replace(/<img([^>]*)>/g, '<img$1 class="rounded-md">')
-          .replace(/<p>/g, '<p class="text-sm font-light text-justify sm:text-lg">')
-          .replace(/<h3>/g, '<h3 class="text-lg font-medium">');
+          .replace(/<p>/g, '<p class="text-sm font-light text-justify sm:text-base">')
+          .replace(/<li>/g, '<li class="text-sm font-light text-justify list-disc sm:text-base">')
+          .replace(/<h3>/g, '<h3 class="text-lg py-1 font-base">');
 
         setArticle(styledHTML);
       } catch (error) {

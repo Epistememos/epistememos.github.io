@@ -3,7 +3,15 @@ import { Category } from "./interfaces";
 export const media: Category = {
   category: 'Media',
   link: 'media',
-  items: [{
+  items: [
+  {
+    title: 'Canadian Finance Starter Pack',
+    img: '/assets/img-trading.jpg',
+    path: '/articles/canadian-finance-starter-pack', 
+    time: '25/01/2025',
+    description: "A quick look on how to get started on investing in Canada."
+  },
+  {
     title: 'Various Poems & Thoughts 2024',
     img: '/assets/img-poems2024.jpg',
     path: '/articles/poems-and-thoughts-2024', 
@@ -116,7 +124,7 @@ export const projects: Category = {
   },
   {
     title: 'Personal Website',
-    time: 'Last Updated: 25/12/2024',
+    time: 'Last Updated: 25/01/2025',
     img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
