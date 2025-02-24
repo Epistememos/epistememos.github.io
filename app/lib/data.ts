@@ -115,6 +115,13 @@ export const projects: Category = {
   category: 'Projects/Technical Work',
   link: 'projects',
   items: [
+    {
+      title: '4GB RAM DeepSeek Distillation via HuggingFace',
+      time: 'Work in progress. (EST. March 10th)',
+      img: '/assets/img-distillation.jpg',
+      description: "Distillating HuggingFace on 4GB RAM to lower computational costs for similar model accuracy. Trying to smooth out hallucinations. Work in progress. Link leads you to a paper on what model distillation has to offer.",
+      path: 'https://huggingface.co/papers/2305.02301',
+    },
   {
     title: 'Reeva Tech Solutions - Dental Implant ',
     time: 'May-September 2024',
@@ -124,7 +131,7 @@ export const projects: Category = {
   },
   {
     title: 'Personal Website',
-    time: 'Last Updated: 25/01/2025',
+    time: 'Last Updated: 24/02/2025',
     img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
@@ -137,7 +144,7 @@ export const projects: Category = {
     path: '/projects',
   },
   {
-    title: 'Park Robot Vaccum',
+    title: 'Self-Navigating Picking Robot',
     time: 'December 2024',
     img: '/assets/img-ecse211.jpg',
     description: "Designed and programmed a Lego robot using Python and a BrickPi to tackle the challenging task of picking up cubes and self-navigating complex obstacle-filled maps with precision sensors, collaborating with a team of 5 students and managing code via Git. Done in the context of a Design Methods and Principles Class.",
