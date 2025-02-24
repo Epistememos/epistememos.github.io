@@ -129,6 +129,22 @@ export const projects: Category = {
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
   },
+  {
+    title: 'School Supply Application',
+    time: 'December 2024',
+    img: '/assets/img-ecse223.jpg',
+    description: "Collaborated with a team of 6 students to design and develop a Java-based application using UML, JavaFX and Cucumber, enabling teachers and parents to efficiently order and manage school supplies, while utilizing Git for seamless version control and team collaboration. Done in the context of a Model-Based programming class.",
+    path: '/projects',
+  },
+  {
+    title: 'Park Robot Vaccum',
+    time: 'December 2024',
+    img: '/assets/img-ecse211.jpg',
+    description: "Designed and programmed a Lego robot using Python and a BrickPi to tackle the challenging task of picking up cubes and self-navigating complex obstacle-filled maps with precision sensors, collaborating with a team of 5 students and managing code via Git. Done in the context of a Design Methods and Principles Class.",
+    path: '/projects',
+  },
+ 
+
 ]};
 
 export const achievements: Category = {
