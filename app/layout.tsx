@@ -3,7 +3,7 @@ import Theme from './theme';
 
 export const metadata = {
   title: 'Youdas Yessad',
-  description: 'Free will is crazzyyyy',
+  description: '"Is life not a thousand times too short for us to bore ourselves?" \n -Friedrich Nietzsche',
 }
 
 export default function RootLayout({
