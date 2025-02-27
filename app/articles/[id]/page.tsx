@@ -42,7 +42,7 @@ const Article: React.FC = () => {
   return (
     <div>
       <Navbar />
-      <div dangerouslySetInnerHTML={createMarkup()} className="h-full p-8 m-4 rounded-lg bg-gray-200 shadow-md hover:shadow-xl" />
+      <div dangerouslySetInnerHTML={createMarkup()} className="h-full p-8 m-4 rounded-lg bg-gray-200 shadow-md hover:shadow-xl dark:bg-sand-900" />
     </div>
   );
 }
