@@ -5,6 +5,13 @@ export const media: Category = {
   link: 'media',
   items: [
   {
+    title: 'Various Poems & Thoughts 2025',
+    img: '/assets/img-poems2025.jpg',
+    path: '/articles/poems-and-thoughts-2025', 
+    time: 'Last updated: 05/03/2025',
+    description: "Trying to keep my literary side alive through poetry and philosophical blurbs."
+  },
+  {
     title: 'Canadian Finance Starter Pack',
     img: '/assets/img-trading.jpg',
     path: '/articles/canadian-finance-starter-pack', 
@@ -56,7 +63,7 @@ export const involvements: Category = {
   {
     title: 'Coach - McGill Boxing Club', 
     time: '09/2024-Present',
-    img: '/assets/img-boxing.jpg',
+    img: '/assets/img-boxingcoach.jpg',
     path: 'https://mcgillstudentboxingclub.ca/',
     description: "From member to coach in a few months, doing this on a voluntary basis. Boxing saves lives."
   },
