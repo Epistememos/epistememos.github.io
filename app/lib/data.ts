@@ -47,22 +47,44 @@ export const involvements: Category = {
 
   items: [
   {
+    title: 'Co-President - McGill Flying Club',
+    time: '03/2025-Present',
+    img: '/assets/img-flyingclubcopres.jpg',
+    path: 'https://www.instagram.com/mcgillflyingclub/',
+    description: "Transformed the Flying Club as Co-President by spearheading a 400% surge in engagement, 20% follower growth, and 351% reach expansion. + Negotiated high-profile partnerships with Red Bull (executing a 40-participant skydiving event) and Red Canoe Brands (exclusive aviation apparel deal), overhauled financial systems, and rebuilt the executive team—turning stagnant operations into a thriving aviation community. More to come over Summer 2025."
+  },
+  {
+    title: 'Head Coach & President, McGill Student Boxing Club', 
+    time: '04/2025-Present',
+    img: '/assets/img-boxingpresident.jpg',
+    path: 'https://mcgillstudentboxingclub.ca/',
+    description: "Recruited and organized a 12-member executive team, implementing clear role delegation and leadership development strategies to enhance operational efficiency. Results to come in F2025."
+  },
+  {
+    title: 'Head Coach & Vice-President, McGill Student Boxing Club', 
+    time: '09/2024-Present',
+    img: '/assets/img-boxingvp.jpg',
+    path: 'https://mcgillstudentboxingclub.ca/',
+    description: "Restored critical banking access within 3 weeks, recovering $3K in stranded funding and enabling uninterrupted operations for 60+ members. + Eliminated $400 in member payment leaks by implementing a tracked dues system, achieving 100% payment compliance through automated reminders and accountability measures. + Designed and led structured boxing sessions for 60+ McGill students of all skill levels, improving  members’ technical proficiency and fitness through tailored drills and safety-focused coaching."
+  },
+  {
+    title: 'VP Finance - MSFC', 
+    time: '10/2024-03/2025',
+    img: '/assets/img-msfc.jpg',
+    path: 'https://mcgillflyingclub.com/index.html',
+    description: "Raised $2,000 in funding, planned and managed a $20,000 annual budget, ensured 100% compliance on all financial transactions, subsidized events and activities for engineering students, and led the ordering and sale of club merchandise."
+  },
+  {
     title: 'VP Finance - MPMA',
     time: '10/2024-Present',
     img: '/assets/img-mpma.jpg',
     path: 'https://www.linkedin.com/company/mpma-mcgill/',
-    description: "Handling all financial transactions for the McGill Product Management Association."
+    description: "Spearheaded full-cycle budget management for a $10K student association, implementing cost controls that eliminated wasteful spending and ensured 100% solvency throughout the fiscal year. + Automated reimbursement workflows for 50+ members, reducing processing time by 50% while maintaining 100% accuracy in financial transactions and compliance."
   },
-  {
-    title: 'VP Finance - MSFC', 
-    time: '10/2024-Present',
-    img: '/assets/img-msfc.jpg',
-    path: 'https://mcgillflyingclub.com/index.html',
-    description: "Handling all financial transactions for the McGill Students' FLying Club."
-  },
+  
   {
     title: 'Coach - McGill Boxing Club', 
-    time: '09/2024-Present',
+    time: '09/2024-01/2025',
     img: '/assets/img-boxingcoach.jpg',
     path: 'https://mcgillstudentboxingclub.ca/',
     description: "From member to coach in a few months, doing this on a voluntary basis. Boxing saves lives."
@@ -138,7 +160,7 @@ export const projects: Category = {
   },
   {
     title: 'Personal Website',
-    time: 'Last Updated: 24/02/2025',
+    time: 'Last Updated: 20/04/2025',
     img: '/assets/img-personalweb.jpg',
     description: "All built using Next.js... you got the results in front of you haha. Deployed on Vercel.",
     path: 'https://github.com/Epistememos/TaskMaster',
@@ -165,6 +187,20 @@ export const achievements: Category = {
   category: 'Achievements',
   link: 'achievements',
   items: [
+  {
+    title: 'Revitalized 2 Student Clubs',
+    time: 'April 2025',
+    img: '/assets/img-2clubs.jpg',
+    path: 'https://www.linkedin.com/posts/activity-7315901968424534016-WsE_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZtV_0B0nnK9-MvsZlY1U3Oi1MpQiVIo-A',
+    description: "Took the lead in reviving two struggling student clubs by stepping beyond my role to handle key administrative work, create new initiatives, and guide a motivated team toward fast, visible results. Streamlined operations, improved communication, and launched targeted outreach efforts that grew the Boxing Club’s reach by 100% and the Flying Club’s by 351% within months. Everything is set for the upcoming year!"
+  },
+  {
+    title: 'Ran 55KM',
+    time: 'April 2025',
+    img: '/assets/img-55k.jpg',
+    path: '',
+    description: "Ran 55k from 4AM to 10AM. MTL is so nice early in the morning. Why did I do it? Because I can."
+  },
   {
     title: 'Hospital Volunteering for 500H',
     time: 'November 27th 2024',
